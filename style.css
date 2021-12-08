@@ -1,0 +1,948 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
+
+
+:root{
+    --ash: rgb(187, 183, 183);
+    --purple: 
+}
+body{
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.container-left{
+    width: 30%;
+    /* height: 100vh; */
+    padding-left: 30px;
+    border-right: 2px solid #f1ebeb;
+}
+.container-left .span{
+    color: rgb(133, 130, 130);
+}
+.container-left .crypto-options{
+    padding-top: 80px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.container-left .crypto-options span{
+    color: var(--ash);
+}
+.container-left .social{
+padding-top: 150px;
+}
+.container-left .social .face{
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.container-left .social .fa-facebook{
+    color: black;
+    border: 1px solid transparent;
+    background-color: rgb(238, 237, 237);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: relative;
+    box-shadow: #e7e6e6 3px 3px 3px;
+    margin: auto;
+}
+.container-left .social .fa-linkedin{
+    color: black;
+    border: 1px solid transparent;
+    background-color: rgb(238, 237, 237);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    z-index: relative;
+     box-shadow: #e7e6e6 3px 3px 3px;
+    padding-bottom: 20px;
+    padding-right: 22px;
+    margin: auto;
+    
+}
+.container-left .social .fa-twitter{
+    color: black;
+    border: 1px solid transparent;
+    background-color: rgb(238, 237, 237);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    z-index: relative;
+    box-shadow: #e7e6e6 3px 3px 3px;
+}
+.container-right{
+    width: 70%;
+    padding-left: 30px;
+}
+
+/* This is the new style for css tricks */
+
+.typewrite{
+    padding-top: -150px;
+     text-decoration: overline;
+     font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #cc47af, rgb(192, 40, 40)); 
+    -webkit-background-clip: text;
+    position: relative;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+    margin: 0;
+    animation-name: write; 
+    animation-duration: 2.5s;
+    animation-delay: 3.8s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode: backwards;  
+
+}
+
+@keyframes write{
+    0% {bottom: 0px;}
+    100% {bottom: 500px;}
+}
+
+.mastery{
+    display: flex;
+    flex-direction: row;
+}
+.container-right .crypto-intro .crypto-back{
+    padding-top: 5px;
+}
+.container-right .crypto-intro{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.container-right .crypto-intro .crypto-talk{
+    display: flex;
+    flex-direction: row;
+    padding-left: 570px;
+    margin: 0;
+    padding-top: 10px;
+}
+.container-right .crypto-intro .crypto-talk .crypto-en{
+    padding-top: 0;
+}
+.container-right .crypto-talk .arrow-down{
+    border: 1px solid rgb(17, 17, 17);
+    border-width: 0 1.3px 1.3px 0;
+    display: inline-block;
+    padding: 2.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    
+}
+.container-right .crypto-talk .arrow{
+    padding-left: 5px;
+}
+
+.container-right .crypto-intro .crypto-talk .crypto-button{
+    padding-left: 30px;
+    padding-top: 0;
+    margin: 0;
+}
+.crypto-talk button{
+    border-radius: 30px;
+    border: 1px solid purple;
+    background-color: #ffffff;
+    width: 85px;
+    height: 35px;
+}
+.crypto-count .crypto-bank{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ash);
+    padding-top: -150px;
+    margin: 0;
+    position: relative;
+    animation-name: write; 
+    animation-duration: 2.5s;
+    animation-delay: 3.8s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode: backwards;  
+}
+.crypto-count h1{
+    font-size: 65px;
+    font-weight: 700;
+    
+}
+.crypto-count .crypto-fast{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #cc47af, rgb(192, 40, 40));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+}
+.crypto-count .crypto-70{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgb(240, 119, 6), rgb(248, 218, 163));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+}
+[ data-type = "Grow fast" ] {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgb(240, 119, 6), rgb(248, 218, 163));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+}
+
+.crypto-count .hr1{
+    border-top: 2px solid;
+    background: linear-gradient(to right, transparent 0%, #8C8C8C 15%, #8C8C8C 85%, transparent 100%);
+    width: 53.7%;
+    color: rgb(194, 40, 104);
+    margin: 4px 4px;
+}
+.crypto-count .hr2{
+    border-top: 2px solid orange;
+    width: 33%;
+    margin: 0 6px;
+}
+.crypto-count .crypto-70{
+    font-family: Arial, Helvetica, sans-serif;
+    
+} 
+.crypto-count .crypto-watch {
+    position: relative;
+    animation-name: write; 
+    animation-duration: 2.5s;
+    animation-delay: 3.8s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode: backwards;  
+}
+.crypto-count .crypto-watch button{
+    background: black;
+    color: white;
+    border: 6px solid black;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+}
+.crypto-count .crypto-watch i{
+    padding-right: 5px;
+    position: relative;
+    padding-top: -200px;
+}
+
+
+.crypto-count .body{
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background: #ffffff;
+}
+.crypto-count .wrapper{
+    display: flex;
+}
+/* .crypto-count .wrapper .static-txt {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+} */
+.wrapper .dynamic-txts{
+    margin-left: 15px;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+.dynamic-txts li{
+    list-style: none;
+    color: #ff4c29;
+    font-size: 60px;
+    font-weight: 500;
+    top: 0;
+    position: relative;
+    animation: slide 12s steps(4) infinite;
+}
+
+/* @keyframes slide {
+    100%{
+        top: -36
+        0px;
+    }
+} */
+.dynamic-txts li{
+    position: relative;
+}
+.dynamic-txts li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    border-left: 2px solid #ffffff;
+    animation: typing 3s steps(15) infinite;
+}
+
+/* @keyframes typing{
+    40%,
+    60%{
+        left: calc(100% + 30px);
+    }
+    100%{
+        left: 0;
+    }
+} */
+
+
+.crypto-cards{
+    
+    padding-left: -10px;
+    padding-bottom: 130px; 
+    padding-top: 140px;
+    position: relative;
+    animation-name: cards;
+    animation-duration: 2.5s;
+    animation-direction: normal;
+    animation-delay: 3.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards; 
+
+
+} 
+
+ @keyframes cards {
+    0% {bottom: 0px; left: 0px;}
+   50% {bottom: 400px; left: 600px}
+    100% {bottom: 700px; left: 1000px;}
+} 
+
+.crypto-cards .crypto-card2{
+    border: 1px solid transparent;
+    height: 190px;
+    width: 280px;
+     margin: 50px auto;
+    margin-top: 90px;
+    background-size: cover;
+    border-radius: 7%;
+    box-shadow: 2px 4px 18px;
+    color: currentColor;
+    /* opacity: 0.8; */
+    background-image: linear-gradient(135deg, #dad8d9, #fcfcfc);
+    position: absolute;
+    transform: rotate(70deg);
+    transform-origin: 40% 5%;
+    box-shadow: rgb(216, 211, 211) 3px 6px 28px 7px;
+    /* box-shadow: 3px 6px 28px 7px; */
+   
+
+} 
+
+@media (prefers-reduced-motion: no-preference) {
+    .crypto-card2 {
+      transition: opacity 1.5s ease, transform 1.5s ease;
+    }
+  }
+/* @keyframes cards {
+    0% {top: 0px; right: 0px;}
+    /* 50% {top: 300px; right: 600px}  */
+    /* 100% {top: 1000px; right: 1000px;}
+}  */
+.crypto-cards .crypto-card2 .logo{
+    padding-left: 15px;
+    padding-top: 6px;
+    
+}
+.crypto-cards .crypto-card2 .master{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    
+}
+.crypto-cards .crypto-card2 .value{
+    padding-left: 182px;
+}
+.crypto-cards .crypto-card2 .balance{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+.crypto-cards .crypto-card2 .five{
+    padding-left: 140px;
+    padding-top: 55px;
+}
+.crypto-cards .crypto-card1{
+    border: 1px solid transparent;
+    height: 190px;
+    width: 280px;
+    /* margin: 50px auto; */
+    /* margin-top: 90px; */
+    background-size: cover;
+    border-radius: 7%;
+    color: currentColor;
+    background-image: linear-gradient(120deg, #a39cbd 5%, #acd3cd 15%, #cecbcc 30%, #f5c6c6 50%, #d1cedf 60%, #b3dbd5 70%, #eeeced 80%, #a39cbd 100%);
+    position: absolute;
+    /* background: #ffffff; */
+    transform: rotate(30deg);
+    transform-origin: 60% 40%;
+    box-shadow: rgb(216, 211, 211) 3px 6px 28px 7px;
+    z-index: 1;
+    position: relative;
+
+} 
+
+@media (prefers-reduced-motion: no-preference) {
+    .crypto-card1 {
+      transition: opacity 1.5s ease, transform 1.5s ease;
+    }
+  }
+
+  .card-transition {
+    opacity: 1;
+    transform: none;
+}
+ /* @keyframes card {
+    0% {bottom: 0px; left: 0px;}
+     /* 50% {bottom: 400px; left: 400px} */
+     /* 100% {bottom: 600px; left: 1000px;}
+}  */
+.crypto-cards .crypto-card1 .logo{
+    padding-left: 15px;
+    padding-top: 6px;
+    
+}
+.crypto-cards .crypto-card1 .master{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    
+}
+.crypto-cards .crypto-card1 .value{
+    padding-left: 182px;
+}
+.crypto-cards .crypto-card1 .balance{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+.crypto-cards .crypto-card1 .five{
+    padding-left: 140px;
+    padding-top: 55px;
+}
+  .phone-left{
+    padding-left: 127px;
+    margin-top: -170px;
+    margin-bottom: 0;
+    display: flex;
+    
+}
+.phone-card{
+    display: flex;
+    flex-direction: row;
+}
+.crypto-phone1{
+    border: 7px solid transparent;
+    height: 650px;
+    width: 295px;
+    /* border: 3px solid #f3f2f2;  */
+    border-radius: 40px;
+    border: 4px solid #f3f2f2;
+    /* background-color: #f5f1f1; */
+    box-shadow: 3px 9px 18px 3px rgb(161, 157, 157); 
+    z-index: 4;
+    position: relative;
+    /* background: #fffafa; */
+    /* z-index: 10; */
+    /* border-left: 7px solid rgb(228, 225, 225);
+    border-right: 7px solid rgb(231, 231, 231); */
+    justify-content: center;
+    animation-name: phone1; 
+    animation-duration: 2.5s;
+    animation-delay: 3.8s; 
+    animation-iteration-count: infinite;
+    
+    animation-direction: normal;
+    animation-fill-mode: backwards; 
+    animation-timing-function: ease-out; 
+}
+@keyframes phone1{
+    0% {bottom: 0px;}
+    100% {bottom: 1000px;}
+} 
+
+.crypto-phone2{
+    border: 7px solid transparent;
+    height: 650px;
+    width: 295px;
+    /* border: 3px solid #f3f2f2;  */
+    border-radius: 40px;
+    border: 4px solid #f3f2f2;
+    /* background-color: #f5f1f1; */
+    box-shadow: 3px 9px 18px 3px rgb(161, 157, 157); 
+    position: relative;
+    /* background: #fffafa; */
+    z-index: 4; 
+    /* border-left: 7px solid rgb(228, 225, 225);
+    border-right: 7px solid rgb(231, 231, 231); */
+    justify-content: center;
+    animation-name: phone2; 
+    animation-duration: 2.5s;
+    animation-delay: 6.2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode: backwards;  
+}
+@keyframes phone2{
+    0% {bottom: 0px;}
+    100% {bottom: 1200px;}
+    
+} 
+
+
+
+.crypto-phone1 .crypto-phone{
+    /* background-color: #faf5f8; */
+    background: #ffffff;
+    /* width: 275px;
+    height: 605px; */
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    left: 4px;
+    right: 4px;
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+    /* border-left: 2px solid rgb(207, 205, 205); */
+    /* border-right: 2px solid rgb(207, 205, 205); */
+    /* border: 4px solid transparent; */
+    box-shadow: 3px 10px 9px 2px rgba(223, 220, 220, 0.5); 
+    position: absolute;
+    bottom: 10px;
+    top: 10px;
+} 
+
+.crypto-phone2 .crypto-phone{
+    /* background-color: #faf5f8; */
+    background: #ffffff;
+    /* width: 275px;
+    height: 605px; */
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    left: 4px;
+    right: 4px;
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+    /* border-left: 2px solid rgb(207, 205, 205); */
+    /* border-right: 2px solid rgb(207, 205, 205); */
+    /* border: 4px solid transparent; */
+    box-shadow: 3px 10px 9px 2px rgba(223, 220, 220, 0.5); 
+    position: absolute;
+    bottom: 10px;
+    top: 10px;
+}
+.crypto-phone1 .crypto-phone:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(255, 255, 255, .2); */
+}
+.crypto-phone2 .crypto-phone:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(255, 255, 255, .2); */
+}
+
+.crypto-phone1 .crypto-phone .phone1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-top: -100px;
+}
+.crypto-phone2 .crypto-phone .phone1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-top: -100px;
+}
+.crypto-phone1 .crypto-phone .phone1 .home-icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4px;
+    /* box-shadow: 3px 9px 7px; */
+}
+.crypto-phone2 .crypto-phone .phone1 .home-icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4px;
+    /* box-shadow: 3px 9px 7px; */
+}
+.crypto-phone1 .crypto-phone .phone1 .home-icon span{
+    display: block;
+    height: 2px;
+    width: 16px;
+    background-color: black;
+    position: relative;
+}
+.crypto-phone2 .crypto-phone .phone1 .home-icon span{
+    display: block;
+    height: 2px;
+    width: 16px;
+    background-color: black;
+    position: relative;
+}
+.crypto-phone1 .crypto-phone .phone1 .home-icon span:before,
+.crypto-phone1 .crypto-phone .phone1 .home-icon span:after{
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(36, 36, 36);
+}
+/* .crypto-phone1 .crypto-phone .phone1 .home-icon span:before{
+    top: -6px;
+} */
+
+.crypto-phone2 .crypto-phone .phone1 .home-icon span:before,
+.crypto-phone2 .crypto-phone .phone1 .home-icon span:after{
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(36, 36, 36);
+}
+.crypto-phone1 .crypto-phone .phone1 .home-icon span:after{
+    top: 6px;
+}
+.crypto-phone2 .crypto-phone .phone1 .home-icon span:after{
+    top: 6px;
+}
+.crypto-phone1 .crypto-phone .phone1 .currency{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+}
+.crypto-phone2 .crypto-phone .phone1 .currency{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+}
+.crypto-phone1 .crypto-phone .phone1 .image-icon{
+    /* border-radius: 50%; */
+    /* border: 1px solid black;
+    width: 50px;
+    height: 50px; */
+    padding-left: 49px;
+}
+.crypto-phone2 .crypto-phone .phone1 .image-icon{
+    /* border-radius: 50%; */
+    /* border: 1px solid black;
+    width: 50px;
+    height: 50px; */
+    padding-left: 49px;
+}
+.crypto-phone1 .crypto-phone .phone1 .image{
+    border-radius: 50%;
+    width: 35px;
+    height: 37px;
+}
+.crypto-phone2 .crypto-phone .phone1 .image{
+    border-radius: 50%;
+    width: 35px;
+    height: 37px;
+}
+.crypto-phone1 .crypto-phone .bold{
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    transform: rotate(-2.5deg);
+    background-color: #f9f8fc;
+    width: 190px;
+    height: 46px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgb(211, 209, 209) 3px 9px 14px 2px;
+}
+.crypto-phone2 .crypto-phone .bold{
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    transform: rotate(-2.5deg);
+    background-color: #f9f8fc;
+    width: 190px;
+    height: 46px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: rgb(211, 209, 209) 3px 9px 14px 2px;
+}
+.crypto-phone1 .crypto-phone .home .fact{
+    padding-left: 28px;
+    padding-right: 22px;
+}
+.crypto-phone2 .crypto-phone .home .fact{
+    padding-left: 28px;
+    padding-right: 22px;
+}
+.crypto-phone1 .lines .direct{
+    display: flex;
+    flex-direction: row;
+    opacity: 0.8;
+    background-size: cover;
+    padding-left: 5px;
+}
+.crypto-phone2 .lines .direct{
+    display: flex;
+    flex-direction: row;
+    opacity: 0.8;
+    background-size: cover;
+    padding-left: 5px;
+}
+.lines .direct span{
+    color: var(--ash);
+   
+}
+.crypto-phone1 .lines .direct .current{
+    width: 120px;
+}
+.crypto-phone2 .lines .direct .current{
+    width: 120px;
+}
+.crypto-phone1 .direct .meek1{
+    padding-left: 120px;
+}
+.crypto-phone2 .direct .meek1{
+    padding-left: 120px;
+}
+.crypto-phone1 .direct .meek2{
+    padding-left: 130px;
+}
+.crypto-phone2 .direct .meek2{
+    padding-left: 130px;
+}
+.crypto-phone1 .direct .meek3{
+    padding-left: 140px;
+}
+.crypto-phone2 .direct .meek3{
+    padding-left: 140px;
+}
+.crypto-phone1 .direct .meek4{
+    padding-left: 130px;
+}
+.crypto-phone2 .direct .meek4{
+    padding-left: 130px;
+}
+.crypto-phone1 .lines .favor h5{
+    color: var(--ash);
+    width: 120px;
+}
+.crypto-phone2 .lines .favor h5{
+    color: var(--ash);
+    width: 120px;
+}
+
+.crypto-phone1 .lines .direct h5{
+    color: var(--ash);
+}
+.crypto-phone2 .lines .direct h5{
+    color: var(--ash);
+}
+.crypto-phone1 .lines .direct .fig{
+    padding-left: 70px;
+}
+.crypto-phone2 .lines .direct .fig{
+    padding-left: 70px;
+}
+.crypto-phone1 .lines .direct .all{
+    border: 1px solid rgb(17, 17, 17);
+    border-width: 0 1.3px 1.3px 0;
+    display: inline-block;
+    padding: 1.9px; 
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.crypto-phone2 .lines .direct .all{
+    border: 1px solid rgb(17, 17, 17);
+    border-width: 0 1.3px 1.3px 0;
+    display: inline-block;
+    padding: 1.9px; 
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.crypto-phone1 .lines .direct span{
+    padding-left: 5px;
+}
+.crypto-phone2 .lines .direct span{
+    padding-left: 5px;
+}
+.crypto-phone1 .crypto-phone .home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.crypto-phone2 .crypto-phone .home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bank{
+    width: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-left: 15px;
+    animation-name: bank;
+    animation-duration: 2.5s;
+    animation-delay: 3.8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bank {
+    0% {bottom: 0px;}
+    /* 50% {top: 500px;} */
+    100% {bottom: 1300px;}
+} 
+
+.bank .bankly{
+    color: var(--ash);
+    font-weight: 400;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.bank h1{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    font-size: 50px;
+   
+}
+.crypto-buy{
+    display: flex;
+    flex-direction: row;
+}
+.crypto-buy .phone-right{
+    padding-left: 60px;
+}
+.crypto-buy .exchange{
+    padding-left: 190px;
+    width: 270px;
+    position: relative;
+    animation-name: exchange; 
+    animation-duration: 2.5s;
+    animation-delay: 6.2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode: backwards;  
+    /* animation-play-state: calc(50% + 1300px); */
+}
+@keyframes exchange {
+    0% {bottom: 0px;}
+    /* 50% {bottom: 1300px;} */
+    100% {bottom: 1200px;}
+}
+.crypto-buy .exchange .bankly{
+    color: var(--ash);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    
+}
+.crypto-buy .exchange h1{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    font-size: 45px;
+}
+.crypto-buy .exchange .starter{
+    padding-top: 10px;
+}
+.crypto-buy .exchange button{
+    border: 1px solid black;
+    width: 160px;
+    height: 55px;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: black;
+    
+}
+.bank .start{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.bank button{
+    border: 1px solid black;
+    width: 160px;
+    height: 55px;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: black;
+}
+.support-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.support{
+    padding-left: 743px;
+    padding-bottom: 40px;
+    position: absolute;
+    padding-top: 292px;
+}
+.support button{
+    border: 1px solid transparent;
+    border-radius: 26px;
+    width: 120px;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(196, 52, 196), rgb(165, 139, 168));
+}

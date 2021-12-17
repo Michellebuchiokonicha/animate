@@ -98,7 +98,7 @@ padding-top: 150px;
     background-size: 100%;
     margin: 0;
     animation-name: write; 
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-delay: 3.8s; 
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
@@ -167,7 +167,7 @@ padding-top: 150px;
     margin: 0;
     position: relative;
     animation-name: write; 
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-delay: 3.8s; 
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
@@ -230,7 +230,7 @@ padding-top: 150px;
 .crypto-count .crypto-watch {
     position: relative;
     animation-name: write; 
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-delay: 3.8s; 
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
@@ -321,7 +321,7 @@ padding-top: 150px;
     padding-top: 140px;
     position: relative;
     animation-name: cards;
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-direction: normal;
     animation-delay: 3.8s;
     animation-iteration-count: infinite;
@@ -479,7 +479,7 @@ padding-top: 150px;
     border-right: 7px solid rgb(231, 231, 231); */
     justify-content: center;
     animation-name: phone1; 
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-delay: 3.8s; 
     animation-iteration-count: infinite;
     
@@ -508,7 +508,7 @@ padding-top: 150px;
     border-right: 7px solid rgb(231, 231, 231); */
     justify-content: center;
     animation-name: phone2; 
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-delay: 6.2s; 
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
@@ -838,7 +838,7 @@ padding-top: 150px;
     position: relative;
     padding-left: 15px;
     animation-name: bank;
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-delay: 3.8s;
     animation-iteration-count: infinite;
     animation-direction: normal;
@@ -878,7 +878,7 @@ padding-top: 150px;
     width: 270px;
     position: relative;
     animation-name: exchange; 
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-delay: 6.2s; 
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
@@ -946,3 +946,809 @@ padding-top: 150px;
     height: 50px;
     background-image: linear-gradient(to right, rgb(196, 52, 196), rgb(165, 139, 168));
 }
+
+#myTopnav {
+    display: none;
+}
+
+@media screen and (max-width:320px) {
+    #myTopnav {
+        display: block;
+        margin-left: -8px;
+        position: relative;
+    }
+
+    .container-left {
+        display: none;
+    }
+
+    .container-right {
+        margin-top: 100px;
+    }
+
+    .crypto-en {
+        margin-left: -520px;
+    }
+
+    /* Makes Hamburger Heading Visible On Mobile Only */
+    .topnav .icon, #myTopnav, .active {
+        visibility: visible;
+        z-index: 10000;
+    }
+
+    /* Width Of Hamburger Navigation */
+    .topnav {
+        width: 100%;
+    }
+
+    /* Removes Desktop Heading & Navigation */
+    .nav, .top-heading {
+        display: none;
+    }
+
+    /* Header Color */
+    #fn {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    /* Background And Overflow Of Hamburger Navigation */
+    .topnav {
+        background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+        overflow: hidden;
+    }
+
+    /* Link Style Inside Hamburger Navigation */
+    .topnav a {
+       float: left;
+       display: block;
+       color: #ffffff;
+       text-align: center;
+       padding: 26px 16px;
+       text-decoration: none;
+       font-family: 'Alegreya Sans SC', sans-serif;
+       font-size: 28px;
+    }
+
+    /* Link Properties On Hover */
+    .topnav a:hover {
+       color: black;
+    }
+
+    /* Active Highlight Of Current Page */
+    .active {
+       background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+       color: #ffffff;
+    }
+
+    /* Closed Hamburger Properties */
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+       float: right;
+       display: block;
+    }
+
+    /* Open Hamburger Properties */
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+       position: absolute;
+       font-size: 25px;
+       right: 0%;
+       top: 0;
+    }
+
+    /* Open Link Properties */
+    .topnav.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+       font-size: 15px;
+    }
+    .typewrite{
+        font-size: 30px;
+        font-weight: 300px;
+    }
+    .crypto-cards .crypto-card2{
+        height:  80px;
+        width: 100px;
+    }
+    .crypto-cards .crypto-card1{
+        height:  80px;
+        width: 100px;
+    }
+    .crypto-phone1{
+        height: 350px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    .phone-left{
+        padding-left: 14px;
+    }
+    .mastery{
+        display: block;
+    }
+    .crypto-phone2{
+        height: 350px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    .crypto-buy .phone-right{
+        padding-left: 30px;
+    }
+    .bank{
+        width: 130px;
+    }
+    .bank .bankly{
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .bank h1{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .bank button{
+        width: 90px;
+        height: 40px;
+    }
+    .crypto-count .crypto-watch button{
+        width: 90px;
+        height: 40px;
+    }
+    .crypto-buy{
+        display: block;
+    }
+    .crypto-buy .exchange{
+        padding-left: 100px;
+        width: 130px;
+    }
+    .crypto-buy .exchange .bankly{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .crypto-buy .exchange h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    #myTopnav {
+        display: block;
+        margin-left: -8px;
+        width: 96%;
+    }
+
+    .container-left {
+        display: none;
+    }
+
+    .container-right {
+        margin-top: 100px;
+    }
+
+    .crypto-en {
+        margin-left: -490px;
+    }
+
+    /* Makes Hamburger Heading Visible On Mobile Only */
+    .topnav .icon, #myTopnav, .active {
+        visibility: visible;
+        z-index: 10000;
+    }
+
+    /* Width Of Hamburger Navigation */
+    .topnav {
+        width: 100%;
+    }
+
+    /* Removes Desktop Heading & Navigation */
+    .nav, .top-heading {
+        display: none;
+    }
+
+    /* Header Color */
+    #fn {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    /* Background And Overflow Of Hamburger Navigation */
+    .topnav {
+        background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+        overflow: hidden;
+    }
+
+    /* Link Style Inside Hamburger Navigation */
+    .topnav a {
+       float: left;
+       display: block;
+       color: #ffffff;
+       text-align: center;
+       padding: 26px 16px;
+       text-decoration: none;
+       font-family: 'Alegreya Sans SC', sans-serif;
+       font-size: 28px;
+    }
+
+    /* Link Properties On Hover */
+    .topnav a:hover {
+       color: black;
+    }
+
+    /* Active Highlight Of Current Page */
+    .active {
+       background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+       color: #ffffff;
+    }
+
+    /* Closed Hamburger Properties */
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+       float: right;
+       display: block;
+    }
+
+    /* Open Hamburger Properties */
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+       position: absolute;
+       font-size: 25px;
+       right: 0%;
+       top: 0;
+    }
+
+    /* Open Link Properties */
+    .topnav.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+       font-size: 15px;
+    }
+    .typewrite{
+        font-size: 30px;
+        font-weight: 300px;
+    }
+    .crypto-cards .crypto-card2{
+        height:  80px;
+        width: 100px;
+    }
+    .crypto-cards .crypto-card1{
+        height:  80px;
+        width: 100px;
+    }
+    .crypto-phone1{
+        height: 350px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    .phone-left{
+        padding-left: 14px;
+    }
+    .mastery{
+        display: block;
+    }
+    .crypto-phone2{
+        height: 350px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    .crypto-buy .phone-right{
+        padding-left: 30px;
+    }
+    .bank{
+        width: 130px;
+    }
+    .bank .bankly{
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .bank h1{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .bank button{
+        width: 90px;
+        height: 40px;
+    }
+    .crypto-count .crypto-watch button{
+        width: 90px;
+        height: 40px;
+    }
+    .crypto-buy{
+        display: block;
+    }
+    .crypto-buy .exchange{
+        padding-left: 100px;
+        width: 130px;
+    }
+    .crypto-buy .exchange .bankly{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .crypto-buy .exchange h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:425px) {
+    #myTopnav {
+        display: block;
+        margin-left: -8px;
+        width: 96%;
+    }
+
+    .container-left {
+        display: none;
+    }
+
+    .container-right {
+        margin-top: 100px;
+    }
+
+    .crypto-en {
+        margin-left: -450px;
+    }
+
+    /* Makes Hamburger Heading Visible On Mobile Only */
+    .topnav .icon, #myTopnav, .active {
+        visibility: visible;
+        z-index: 10000;
+    }
+
+    /* Width Of Hamburger Navigation */
+    .topnav {
+        width: 100%;
+    }
+
+    /* Removes Desktop Heading & Navigation */
+    .nav, .top-heading {
+        display: none;
+    }
+
+    /* Header Color */
+    #fn {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    /* Background And Overflow Of Hamburger Navigation */
+    .topnav {
+        background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+        overflow: hidden;
+    }
+
+    /* Link Style Inside Hamburger Navigation */
+    .topnav a {
+       float: left;
+       display: block;
+       color: #ffffff;
+       text-align: center;
+       padding: 26px 16px;
+       text-decoration: none;
+       font-family: 'Alegreya Sans SC', sans-serif;
+       font-size: 28px;
+    }
+
+    /* Link Properties On Hover */
+    .topnav a:hover {
+       color: black;
+    }
+
+    /* Active Highlight Of Current Page */
+    .active {
+       background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+       color: #ffffff;
+    }
+
+    /* Closed Hamburger Properties */
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+       float: right;
+       display: block;
+    }
+
+    /* Open Hamburger Properties */
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+       position: absolute;
+       font-size: 25px;
+       right: 0%;
+       top: 0;
+    }
+
+    /* Open Link Properties */
+    .topnav.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+       font-size: 15px;
+    }
+    .typewrite{
+        font-size: 30px;
+        font-weight: 300px;
+    }
+    .crypto-cards .crypto-card2{
+        height:  80px;
+        width: 100px;
+    }
+    .crypto-cards .crypto-card1{
+        height:  80px;
+        width: 100px;
+    }
+    .crypto-phone1{
+        height: 350px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    .phone-left{
+        padding-left: 14px;
+    }
+    .mastery{
+        display: block;
+    }
+    .crypto-phone2{
+        height: 350px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    .crypto-buy .phone-right{
+        padding-left: 30px;
+    }
+    .bank{
+        width: 130px;
+    }
+    .bank .bankly{
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .bank h1{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .bank button{
+        width: 90px;
+        height: 40px;
+    }
+    .crypto-count .crypto-watch button{
+        width: 90px;
+        height: 40px;
+    }
+    .crypto-buy{
+        display: block;
+    }
+    .crypto-buy .exchange{
+        padding-left: 100px;
+        width: 130px;
+    }
+    .crypto-buy .exchange .bankly{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .crypto-buy .exchange h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+    #myTopnav {
+        display: block;
+        margin-left: -8px;
+        width: 65%;
+    }
+
+    .container-left {
+        display: none;
+    }
+
+    .container-right {
+        margin-top: 100px;
+    }
+
+    .crypto-en {
+        margin-left: -355px;
+    }
+
+    /* Makes Hamburger Heading Visible On Mobile Only */
+    .topnav .icon, #myTopnav, .active {
+        visibility: visible;
+        z-index: 10000;
+    }
+
+    /* Width Of Hamburger Navigation */
+    .topnav {
+        width: 100%;
+    }
+
+    /* Removes Desktop Heading & Navigation */
+    .nav, .top-heading {
+        display: none;
+    }
+
+    /* Header Color */
+    #fn {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    /* Background And Overflow Of Hamburger Navigation */
+    .topnav {
+        background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+        overflow: hidden;
+    }
+
+    /* Link Style Inside Hamburger Navigation */
+    .topnav a {
+       float: left;
+       display: block;
+       color: #ffffff;
+       text-align: center;
+       padding: 26px 16px;
+       text-decoration: none;
+       font-family: 'Alegreya Sans SC', sans-serif;
+       font-size: 28px;
+    }
+
+    /* Link Properties On Hover */
+    .topnav a:hover {
+       color: black;
+    }
+
+    /* Active Highlight Of Current Page */
+    .active {
+       background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+       color: #ffffff;
+    }
+
+    /* Closed Hamburger Properties */
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+       float: right;
+       display: block;
+    }
+
+    /* Open Hamburger Properties */
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+       position: absolute;
+       font-size: 25px;
+       right: 0%;
+       top: 0;
+    }
+
+    /* Open Link Properties */
+    .topnav.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+       font-size: 15px;
+    }
+    .typewrite{
+        font-size: 30px;
+        font-weight: 300px;
+    }
+    .crypto-cards .crypto-card2{
+        height:  80px;
+        width: 100px;
+    }
+    .crypto-cards .crypto-card1{
+        height:  80px;
+        width: 100px;
+    }
+    .crypto-phone1{
+        height: 350px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    .phone-left{
+        padding-left: 14px;
+
+    }
+    .mastery{
+        display: block;
+    }
+    .crypto-phone2{
+        height: 350px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    .crypto-buy .phone-right{
+        padding-left: 30px;
+    }
+    .bank{
+        width: 130px;
+    }
+    .bank .bankly{
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .bank h1{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .bank button{
+        width: 90px;
+        height: 40px;
+    }
+    .crypto-count .crypto-watch button{
+        width: 90px;
+        height: 40px;
+    }
+    .crypto-buy{
+        display: block;
+    }
+    .crypto-buy .exchange{
+        padding-left: 100px;
+        width: 130px;
+    }
+    .crypto-buy .exchange .bankly{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .crypto-buy .exchange h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1450px) {
+    #myTopnav {
+        display: block;
+        margin-left: -8px;
+        width: 80%;
+    }
+
+    .container-left {
+        display: none;
+    }
+
+    .container-right {
+        margin-top: 100px;
+    }
+
+    .crypto-en {
+        margin-left: -355px;
+    }
+
+    /* Makes Hamburger Heading Visible On Mobile Only */
+    .topnav .icon, #myTopnav, .active {
+        visibility: visible;
+        z-index: 10000;
+    }
+
+    /* Width Of Hamburger Navigation */
+    .topnav {
+        width: 100%;
+    }
+
+    /* Removes Desktop Heading & Navigation */
+    .nav, .top-heading {
+        display: none;
+    }
+
+    /* Header Color */
+    #fn {
+        color: #ffffff;
+        font-size: 25px;
+    }
+
+    /* Background And Overflow Of Hamburger Navigation */
+    .topnav {
+        background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+        overflow: hidden;
+    }
+
+    /* Link Style Inside Hamburger Navigation */
+    .topnav a {
+       float: left;
+       display: block;
+       color: #ffffff;
+       text-align: center;
+       padding: 26px 16px;
+       text-decoration: none;
+       font-family: 'Alegreya Sans SC', sans-serif;
+       font-size: 28px;
+    }
+
+    /* Link Properties On Hover */
+    .topnav a:hover {
+       color: black;
+    }
+
+    /* Active Highlight Of Current Page */
+    .active {
+       background: linear-gradient(to top, #ff6699 0%, #ff9999 100%);
+       color: #ffffff;
+    }
+
+    /* Closed Hamburger Properties */
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+       float: right;
+       display: block;
+    }
+
+    /* Open Hamburger Properties */
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+       position: absolute;
+       font-size: 30px;
+       right: 0%;
+       top: 0;
+    }
+
+    /* Open Link Properties */
+    .topnav.responsive a {
+       float: none;
+       display: block;
+       text-align: left;
+       font-size: 20px;
+    }
+    .typewrite{
+        font-size: 30px;
+        font-weight: 400px;
+    }
+    .crypto-cards .crypto-card2{
+        height:  100px;
+        width: 120px;
+    }
+    .crypto-cards .crypto-card1{
+        height:  100px;
+        width: 120px;
+    }
+    .crypto-phone1{
+        height: 380px;
+        width: 180px;
+        border-radius: 8px;
+    }
+    .phone-left{
+        padding-left: 14px;
+
+    }
+    .mastery{
+        display: block;
+    }
+    .crypto-phone2{
+        height: 380px;
+        width: 180px;
+        border-radius: 8px;
+    }
+    .crypto-buy .phone-right{
+        padding-left: 30px;
+    }
+    .bank{
+        width: 150px;
+    }
+    .bank .bankly{
+        font-weight: 400;
+        font-size: 10px;
+    }
+    .bank h1{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .bank button{
+        width: 100px;
+        height: 50px;
+    }
+    .crypto-count .crypto-watch button{
+        width: 100px;
+        height: 150px;
+    }
+    .crypto-buy{
+        display: block;
+    }
+    .crypto-buy .exchange{
+        padding-left: 100px;
+        width: 130px;
+    }
+    .crypto-buy .exchange .bankly{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .crypto-buy .exchange h1{
+        font-size: 30px;
+    }
+}
+
+
+
+
+

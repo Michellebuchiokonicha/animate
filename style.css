@@ -1114,7 +1114,7 @@ padding-top: 150px;
     #myTopnav {
         display: block;
         margin-left: -8px;
-        width: 96%;
+        width: 100%;
     }
 
     .container-left {
@@ -1273,7 +1273,7 @@ padding-top: 150px;
     #myTopnav {
         display: block;
         margin-left: -8px;
-        width: 96%;
+        width: 100%;
     }
 
     .container-left {
@@ -1432,7 +1432,7 @@ padding-top: 150px;
     #myTopnav {
         display: block;
         margin-left: -8px;
-        width: 65%;
+        width: 100%;
     }
 
     .container-left {
@@ -1588,11 +1588,11 @@ padding-top: 150px;
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1450px) {
+@media screen and (min-width:768px) and (max-width:1030px) {
     #myTopnav {
         display: block;
         margin-left: -8px;
-        width: 80%;
+        width: 100%;
     }
 
     .container-left {
